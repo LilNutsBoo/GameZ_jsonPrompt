@@ -1,0 +1,718 @@
+{
+  "records": [
+    {
+      "id": "rec2I3UjvnAnca2ib",
+      "createdTime": "2025-07-08T10:20:39.000Z",
+      "fields": {
+        "任务编号": "S-8-1",
+        "任务名称": "--崔亮-云南曲靖的汇安小区装修",
+        "状态": "进行中",
+        "主要NPC": [
+          "recM1D9tP7hrQS5q3"
+        ],
+        "发布时间": "2025-09-11",
+        "下次触发时间": "2025-10-12",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 225/10/12 装修工程应该竣工了\n",
+        "Parent任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "事件编号": [
+          "rec4TkQFcN54Amikv",
+          "recZLczwPCssiNdGp",
+          "recaIOYMNa3LzINug"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-8"
+        ],
+        "From field: Child任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "任务物品": [
+          "rec6gUQfsxycQBzPr"
+        ],
+        "每天刷新概率": 10,
+        "下一步发展": "等npc联系通知最新进展/交付"
+      }
+    },
+    {
+      "id": "rec2dnXpm537p2BhU",
+      "createdTime": "2025-07-02T11:09:49.000Z",
+      "fields": {
+        "任务编号": "S-4",
+        "任务名称": "末日赚钱-我是股神",
+        "状态": "停用",
+        "发布时间": "2025-09-04",
+        "刷新机制": "手机日程安排提示",
+        "事件编号": [
+          "recYugG1AHuIKcRdb",
+          "recdXhHQKYNdG3r0u",
+          "recigELnH42jnJDsW",
+          "recAWgYVQLAuJ8QBz",
+          "recvSQ5rhZXGmWMa7",
+          "recOZmKHSO1vehF9h",
+          "recqOsXA06cJ1D8ia"
+        ]
+      }
+    },
+    {
+      "id": "rec78XSptjyMo0MMr",
+      "createdTime": "2025-07-16T13:17:52.000Z",
+      "fields": {
+        "任务编号": "T-1",
+        "任务名称": "测试任务1",
+        "状态": "测试",
+        "主要NPC": [
+          "recShwJezBPd5h67j"
+        ],
+        "发布时间": "2025-10-01",
+        "下次触发时间": "2025-10-01",
+        "刷新机制": "NPC主动联系",
+        "事件编号": [
+          "recptzEFJ8kak4KCD"
+        ],
+        "每天刷新概率": 100
+      }
+    },
+    {
+      "id": "rec9wZCTI0jWFnwvT",
+      "createdTime": "2025-07-02T12:50:36.000Z",
+      "fields": {
+        "任务编号": "S-6",
+        "任务名称": "医疗用品采购委托",
+        "状态": "进行中",
+        "主要NPC": [
+          "recToGjkEcnLmJM9j"
+        ],
+        "发布时间": "2025-09-10",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "\n",
+        "事件编号": [
+          "recjZin0MCvaUW9u1"
+        ],
+        "每天刷新概率": 100,
+        "下一步发展": "主角可以联系陶笠安交付任务"
+      }
+    },
+    {
+      "id": "recAlG2vNpamZAEXv",
+      "createdTime": "2025-07-02T09:40:32.000Z",
+      "fields": {
+        "任务编号": "S-3",
+        "任务名称": "衣衣爱吃的东西",
+        "状态": "进行中",
+        "主要NPC": [
+          "recbqyfZIorbp2Ki7"
+        ],
+        "发布时间": "2025-09-10",
+        "刷新机制": "手机日程安排提示",
+        "事件编号": [
+          "recXitIlFUGw1Q9H5",
+          "recWEWrGlIfWJXnXM"
+        ],
+        "任务物品": [
+          "rece19sIdu7LsEKgN"
+        ],
+        "下一步发展": "等主角向王衣衣展示已经购买的食品"
+      }
+    },
+    {
+      "id": "recB5KF1JWkBrMZLo",
+      "createdTime": "2025-07-16T13:19:45.000Z",
+      "fields": {
+        "任务编号": "T-3",
+        "任务名称": "测试任务3",
+        "状态": "测试",
+        "主要NPC": [
+          "recpYKlB200Usu0cS"
+        ],
+        "发布时间": "2025-10-01",
+        "下次触发时间": "2025-10-01",
+        "刷新机制": "NPC主动联系",
+        "事件编号": [
+          "recd9EcG8Ku1h7RNe"
+        ],
+        "每天刷新概率": 100
+      }
+    },
+    {
+      "id": "recCx6M3aEIDHU62W",
+      "createdTime": "2025-07-03T10:24:44.000Z",
+      "fields": {
+        "任务编号": "S-11",
+        "任务名称": "末日能源-呼伦贝尔的低温柴油",
+        "状态": "子任务进行中",
+        "次要NPC": [
+          "recyr8aAgNOKmqU5U",
+          "recw9Kz8smTVLj4Pp"
+        ],
+        "发布时间": "2025-09-17",
+        "刷新机制": "不刷新",
+        "任务描述和备注": "1. **任务目标**：-50# 低温柴油（危化散罐车拼单）\n2. **任务执行方式：**农机挂名证明，运输备案。从呼伦贝尔矿山 / 林场作为低温柴油源头，安徽潼影农村本地农机合作社名义挂靠，拼单调拨 -50# 低温柴油，走散罐车危化牌照，分批转运入城进入本地农机合作社\n3. 双线同步跑首车，司机回程需带回下一批补单现金。卢瓒已告知两头暂缓发车，等后续确认消息后统一放行。\n4. **约束条件**：禁止一次性大宗运输引发风险，必须合法危化标号，需视情况配套转运中转点或伪装物资\n\n",
+        "事件编号": [
+          "recHLd9MZfzWZeYDN",
+          "recjqW4jvPr4Ov8bz",
+          "rec2kzv4ErSDaq7Sy"
+        ],
+        "Child任务": [
+          "recKZgJ3J7JvhGQ2y",
+          "recmhJ8eR58OJpo40",
+          "recUFxa1b7ZxfpadK"
+        ],
+        "From field: Parent任务": [
+          "recKZgJ3J7JvhGQ2y",
+          "recmhJ8eR58OJpo40",
+          "recUFxa1b7ZxfpadK"
+        ],
+        "任务编号 (from Child任务)": [
+          "S-11-1",
+          "S-11-2",
+          "S-11-3"
+        ],
+        "下一步发展": "----见子任务"
+      }
+    },
+    {
+      "id": "recEGOuAY5nRDTiBW",
+      "createdTime": "2025-07-08T10:17:11.000Z",
+      "fields": {
+        "任务编号": "S-9",
+        "任务名称": "末日准备-老六的交通工具",
+        "状态": "已完成",
+        "主要NPC": [
+          "rec4OwZHAIgQolQYC"
+        ],
+        "发布时间": "2025-09-07",
+        "下次触发时间": "2025-09-20",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 该任务两辆车完全交付之后，可能引发有关隐藏支线\n",
+        "事件编号": [
+          "recLU1DLIu6AefkiS",
+          "recL4JIacVz0AFJcH",
+          "rec3TWVMPYs4ZuJ2L"
+        ],
+        "任务物品": [
+          "recl05k81crl9TfaM",
+          "recFDD9AKE6AmMXsb"
+        ],
+        "下一步发展": "等npc通知去提第二辆车"
+      }
+    },
+    {
+      "id": "recEIApftNq9EYcp6",
+      "createdTime": "2025-07-16T13:19:33.000Z",
+      "fields": {
+        "任务编号": "T-2",
+        "任务名称": "测试任务2",
+        "状态": "测试",
+        "主要NPC": [
+          "recIFyxIvllcvKwuW"
+        ],
+        "发布时间": "2025-10-01",
+        "下次触发时间": "2025-10-01",
+        "刷新机制": "NPC主动联系",
+        "事件编号": [
+          "recNiq6qTMe1SEN4N"
+        ],
+        "每天刷新概率": 100
+      }
+    },
+    {
+      "id": "recGdqwjkJfxBy32k",
+      "createdTime": "2025-07-02T09:23:06.000Z",
+      "fields": {
+        "任务编号": "S-2",
+        "任务名称": "全屋防御型改装计划",
+        "状态": "进行中",
+        "主要NPC": [
+          "recpWXBT3KAFPGYMB"
+        ],
+        "次要NPC": [
+          "recToGjkEcnLmJM9j"
+        ],
+        "发布时间": "2025-09-05",
+        "下次触发时间": "2025-10-13",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 分两阶段施工：地下结构加固与院墙提升 + 全屋防御升级\n2.  储物间小隔间不记明账，走暗项，仅老梁和主角知情。\n",
+        "事件编号": [
+          "recjKgewHLtwFcVw5",
+          "recb2UyczULxuRiMR",
+          "rec0z7zL6cTGjC7wV",
+          "reclQMgWaahQEn8Eh"
+        ],
+        "任务物品": [
+          "recypDKpfNKIrSIVZ"
+        ],
+        "下一步发展": "等npc联系交付房屋改造"
+      }
+    },
+    {
+      "id": "recIz8xxWTEPpMK6g",
+      "createdTime": "2025-07-08T10:25:19.000Z",
+      "fields": {
+        "任务编号": "S-8-2",
+        "任务名称": "--柴姐-肇事司机的调查",
+        "状态": "进行中",
+        "次要NPC": [
+          "reczyT9djNqHlSVSd",
+          "recyhg3vIQfnTMueE",
+          "recWvhEL0F2GxHSQz",
+          "recEdC45Dz3WLEIAT",
+          "rec3rmjq3luvz7ZeP"
+        ],
+        "发布时间": "2025-09-13",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "\n",
+        "Parent任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "事件编号": [
+          "recwwroP18XiS9wpk",
+          "recbQzBt2DN76qx9Y",
+          "recQAwJ96uUfsES7P",
+          "recUJH5Jy8gZFXUt7",
+          "recs6YDBWvwEwrAcX",
+          "recX19LKLDqR9V1BD"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-8"
+        ],
+        "From field: Child任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "任务物品": [
+          "recRZzn7TMlUXhJNV",
+          "recY2HcQEfQmq8U8v",
+          "rec5UnsQpa14lFdeI",
+          "recD9Tq6YPFdN4Z7z",
+          "recYmbBYbgJj5H4Hd",
+          "recUYvJun2chIv99g"
+        ],
+        "每天刷新概率": 100,
+        "下一步发展": "主角应该联系沈某，进一步询问肇事司机孙显群去向的线索。沈某在先前的会面中已经表示会积极提供帮助"
+      }
+    },
+    {
+      "id": "recJ76riewAcKYqPm",
+      "createdTime": "2025-07-24T10:37:36.000Z",
+      "fields": {
+        "任务编号": "A-1",
+        "任务名称": "技能训练",
+        "状态": "进行中",
+        "主要NPC": [
+          "recat89ZViDEJUP56"
+        ],
+        "发布时间": "2025-09-22",
+        "任务描述和备注": "主角自己训练技能的记录\n1.目前：枪支使用+瞄准，初级\n\n\n",
+        "事件编号": [
+          "reczECLJI3H4Et6Iw"
+        ],
+        "每天刷新概率": 100
+      }
+    },
+    {
+      "id": "recJJ8PFYKPOwGLMX",
+      "createdTime": "2025-07-12T04:42:34.000Z",
+      "fields": {
+        "任务编号": "S-5-4",
+        "任务名称": "--I Need a Favor",
+        "状态": "进行中",
+        "主要NPC": [
+          "recXSeCHsX8pV814m"
+        ],
+        "发布时间": "2025-09-13",
+        "刷新机制": "NPC主动联系",
+        "Parent任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "事件编号": [
+          "recJclS5QIysKFUgD"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-5"
+        ],
+        "From field: Child任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "任务物品": [
+          "recV0AIPufhm5zhbh"
+        ],
+        "每天刷新概率": 5,
+        "下一步发展": "等npc联系主角回复主角的邮件"
+      }
+    },
+    {
+      "id": "recKZgJ3J7JvhGQ2y",
+      "createdTime": "2025-07-03T11:14:43.000Z",
+      "fields": {
+        "任务编号": "S-11-1",
+        "任务名称": "--老林",
+        "状态": "进行中",
+        "主要NPC": [
+          "recKkNHD2spL4ivZ2"
+        ],
+        "次要NPC": [
+          "recyr8aAgNOKmqU5U",
+          "recw9Kz8smTVLj4Pp"
+        ],
+        "发布时间": "2025-09-17",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "1. 林场供油点：首批 5 吨拼单，定金已付 38,750 RMB，装车人老马，车队已待命，待卢瓒指令启动发车，单车预计 24 小时内可达潼影接货点。\n",
+        "Parent任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-11"
+        ],
+        "From field: Child任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "每天刷新概率": 100,
+        "下一步发展": "等主角通知npc开始送货"
+      }
+    },
+    {
+      "id": "recRgg7o120wKIx3z",
+      "createdTime": "2025-07-02T11:29:43.000Z",
+      "fields": {
+        "任务编号": "S-5",
+        "任务名称": "末日药品",
+        "状态": "子任务进行中",
+        "刷新机制": "不刷新",
+        "任务描述和备注": "1. 末日将至，世人一无所知，主角计划在力所能及的范围内尽量提前收集一些重要医疗资源，以便后续末日之中自己使用或者作为硬通货与他人交易。目前任务中的所有一切都要尽可能低调，不引人注意的进行。\n",
+        "Child任务": [
+          "recspkAqqKdIQXkjJ",
+          "recRjjBH3mq5VneCe",
+          "recblw4aw5Nazg1mZ",
+          "recJJ8PFYKPOwGLMX"
+        ],
+        "From field: Parent任务": [
+          "recspkAqqKdIQXkjJ",
+          "recRjjBH3mq5VneCe",
+          "recblw4aw5Nazg1mZ",
+          "recJJ8PFYKPOwGLMX"
+        ],
+        "任务编号 (from Child任务)": [
+          "S-5-1",
+          "S-5-2",
+          "S-5-3",
+          "S-5-4"
+        ],
+        "下一步发展": "----见子任务"
+      }
+    },
+    {
+      "id": "recRjjBH3mq5VneCe",
+      "createdTime": "2025-07-02T11:43:54.000Z",
+      "fields": {
+        "任务编号": "S-5-2",
+        "任务名称": "--委托小姨的普通药品采购",
+        "状态": "进行中",
+        "主要NPC": [
+          "recjD64JNXHSHwlEx"
+        ],
+        "发布时间": "2025-09-17",
+        "下次触发时间": "2025-09-24",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 采购、打包、走合法批发线，无敏感药物。\n2. 供货走医院 or 家庭分送，小姨亲自盯后仓/社区物流，主角只需等电话，不要单人跑腿搬箱\n3. 订购每样5件以供质检\n\n\n",
+        "Parent任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "事件编号": [
+          "recjIJewg0ZBPK1cX"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-5"
+        ],
+        "From field: Child任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "任务物品": [
+          "recDLhkESmgzevkDj"
+        ],
+        "下一步发展": "等npc联系去取货"
+      }
+    },
+    {
+      "id": "recUFxa1b7ZxfpadK",
+      "createdTime": "2025-07-03T11:15:00.000Z",
+      "fields": {
+        "任务编号": "S-11-3",
+        "任务名称": "--郭大军",
+        "状态": "进行中",
+        "主要NPC": [
+          "reca85mjRHqjzprhe"
+        ],
+        "次要NPC": [
+          "recyr8aAgNOKmqU5U",
+          "recw9Kz8smTVLj4Pp"
+        ],
+        "发布时间": "2025-09-17",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "1. 散车司机单干，油单价比车队略高：首批为试跑单次，5 吨油钱不付押金，仅先支付路费与辛苦费 3000 RMB 现金，由郭大军负责从呼伦贝尔单车跑至潼影。司机承诺收货后可自行寻找下家接拼，如因品质问题卢瓒有权拒收不付尾款。\n",
+        "Parent任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-11"
+        ],
+        "From field: Child任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "每天刷新概率": 100,
+        "下一步发展": "等主角通知npc开始送货"
+      }
+    },
+    {
+      "id": "recUkhJ8OOepGk1tS",
+      "createdTime": "2025-07-02T12:50:56.000Z",
+      "fields": {
+        "任务编号": "S-7",
+        "任务名称": "航空公司的工作",
+        "状态": "进行中",
+        "次要NPC": [
+          "reccsAlkmof14JLfF"
+        ],
+        "发布时间": "2025-09-02",
+        "下次触发时间": "2025-09-23",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "1. 主角受雇于美国达美航空公司，目前是First Officer，主飞北美-亚洲的国际航班\n2. 注意等天灾降临之后，需要考虑天灾的情况设计主角的航班排班表\n3. 在平稳运营的情况下工资到账=base pay + sector trip pay + duty time adjustment + reimbursement + misc - income tax; 两周一次发工资，下次发薪日为2025/9/28\n",
+        "事件编号": [
+          "recenwdWZpVBimbDH",
+          "reczjvFdmDbFXo31s",
+          "recPgXvU6PwUa0wMz",
+          "rec41Lx0cjhGm83iT",
+          "recAcwQF7N6w0bdgH",
+          "recilujJzs8btOaOb"
+        ],
+        "下一步发展": "公司发flgiht plan安排的航班 or check最近一次事件，看看是否为发薪日"
+      }
+    },
+    {
+      "id": "recY6QBBV8iOWZGpW",
+      "createdTime": "2025-06-30T01:47:48.000Z",
+      "fields": {
+        "任务编号": "S-1-1",
+        "任务名称": "--刘照：粮食采购",
+        "状态": "已完成",
+        "主要NPC": [
+          "recREo8uRRi4yctJQ"
+        ],
+        "次要NPC": [
+          "recToGjkEcnLmJM9j"
+        ],
+        "发布时间": "2025-09-05",
+        "刷新机制": "不刷新",
+        "任务描述和备注": "\n\n",
+        "Parent任务": [
+          "recdV0twOIEDrjBKp"
+        ],
+        "事件编号": [
+          "recLbBMXwoof3ZEGE",
+          "reczcIEsCGjXxcr8O",
+          "recX6Uo3JSGbhphz8",
+          "recoYmgzVBhsi2znS",
+          "recwUFTPHgEXyfqzh",
+          "recmV3DOE0qqu33N2",
+          "recHTOYX6WRShTxzH"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-1"
+        ],
+        "From field: Child任务": [
+          "recdV0twOIEDrjBKp"
+        ]
+      }
+    },
+    {
+      "id": "recZrwnS9jhflAabE",
+      "createdTime": "2025-07-26T08:32:03.000Z",
+      "fields": {}
+    },
+    {
+      "id": "recaqUeBj5iMIhNlh",
+      "createdTime": "2025-07-12T04:52:08.000Z",
+      "fields": {
+        "任务编号": "S-8-3",
+        "任务名称": "--王衣衣-末日小特工",
+        "状态": "进行中",
+        "主要NPC": [
+          "recbqyfZIorbp2Ki7"
+        ],
+        "发布时间": "2025-09-15",
+        "下次触发时间": "2025-09-27",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 目标：在不吓到王衣衣的前提下，逐步建立其生存能力（含物资理解、应急行动、心理耐受、避险技能等）。需采用日常化、游戏化、信任嵌套等方式，不可硬切末日预警。\n2. 建议通过“陪伴行动”、“共同任务”、“委托转移”三种主轴推进结构。\n",
+        "Parent任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "事件编号": [
+          "recL4JIacVz0AFJcH",
+          "recimXmvESoFsrE96",
+          "recW5o2M5j8a4HXJS"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-8"
+        ],
+        "From field: Child任务": [
+          "recsFkBBzurOSmElr"
+        ],
+        "任务物品": [
+          "receKRGI8PShXOuD4"
+        ],
+        "下一步发展": "等npc主动联系汇报岭南小区哨点调查行动任务结果"
+      }
+    },
+    {
+      "id": "recblw4aw5Nazg1mZ",
+      "createdTime": "2025-07-02T12:27:13.000Z",
+      "fields": {
+        "任务编号": "S-5-3",
+        "任务名称": "--国际黑市药品掮客Ivan",
+        "状态": "进行中",
+        "主要NPC": [
+          "recLTipBE4ntYNnPt"
+        ],
+        "发布时间": "2025-09-19",
+        "下次触发时间": "2025-09-23",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 若 这批货顺利落地，将滚动扩单 Morphine / Opioids 大票供应\n2. 药品具体是什么form暂且未知，拆包才能知道\n3. 包裹伪装：动物实验科研样本\n\n",
+        "Parent任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "事件编号": [
+          "reckpBstqpljfaQ6s"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-5"
+        ],
+        "From field: Child任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "下一步发展": "等npc联系去送货地点收获"
+      }
+    },
+    {
+      "id": "recdV0twOIEDrjBKp",
+      "createdTime": "2025-07-02T08:36:55.000Z",
+      "fields": {
+        "任务编号": "S-1",
+        "任务名称": "末日囤粮",
+        "状态": "子任务进行中",
+        "刷新机制": "不刷新",
+        "Child任务": [
+          "recY6QBBV8iOWZGpW"
+        ],
+        "From field: Parent任务": [
+          "recY6QBBV8iOWZGpW"
+        ],
+        "任务编号 (from Child任务)": [
+          "S-1-1"
+        ],
+        "下一步发展": "----见子任务"
+      }
+    },
+    {
+      "id": "recmhJ8eR58OJpo40",
+      "createdTime": "2025-07-03T11:14:59.000Z",
+      "fields": {
+        "任务编号": "S-11-2",
+        "任务名称": "--大胡子",
+        "状态": "进行中",
+        "主要NPC": [
+          "recxAQIdZXu0c5pHj"
+        ],
+        "次要NPC": [
+          "recyr8aAgNOKmqU5U",
+          "recw9Kz8smTVLj4Pp"
+        ],
+        "发布时间": "2025-09-17",
+        "刷新机制": "手机日程安排提示",
+        "任务描述和备注": "1. 矿山拼单队：首批 5 吨拼单，定金已付 38,750 RMB，送货人小刘，车队待命，待卢瓒指令启动发车，单车预计 17–24 小时内送达潼影。\n",
+        "Parent任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-11"
+        ],
+        "From field: Child任务": [
+          "recCx6M3aEIDHU62W"
+        ],
+        "每天刷新概率": 100,
+        "下一步发展": "等主角通知npc开始送货"
+      }
+    },
+    {
+      "id": "recqqZrtC67Mr8Cpp",
+      "createdTime": "2025-07-15T09:02:41.000Z",
+      "fields": {
+        "任务编号": "S-0",
+        "任务名称": "主角",
+        "状态": "停用",
+        "主要NPC": [
+          "recat89ZViDEJUP56"
+        ],
+        "发布时间": "2025-09-02",
+        "刷新机制": "不刷新"
+      }
+    },
+    {
+      "id": "recsFkBBzurOSmElr",
+      "createdTime": "2025-07-02T14:12:24.000Z",
+      "fields": {
+        "任务编号": "S-8",
+        "任务名称": "末日队友",
+        "状态": "子任务进行中",
+        "发布时间": "2025-09-11",
+        "刷新机制": "不刷新",
+        "任务描述和备注": "\n",
+        "Child任务": [
+          "rec2I3UjvnAnca2ib",
+          "recIz8xxWTEPpMK6g",
+          "recaqUeBj5iMIhNlh"
+        ],
+        "From field: Parent任务": [
+          "rec2I3UjvnAnca2ib",
+          "recIz8xxWTEPpMK6g",
+          "recaqUeBj5iMIhNlh"
+        ],
+        "任务编号 (from Child任务)": [
+          "S-8-1",
+          "S-8-2",
+          "S-8-3"
+        ]
+      }
+    },
+    {
+      "id": "recspkAqqKdIQXkjJ",
+      "createdTime": "2025-07-02T11:40:11.000Z",
+      "fields": {
+        "任务编号": "S-5-1",
+        "任务名称": "--赵医生的私人诊所",
+        "状态": "进行中",
+        "主要NPC": [
+          "recDXr2HTf8lri0WO"
+        ],
+        "发布时间": "2025-09-11",
+        "下次触发时间": "2025-09-25",
+        "刷新机制": "NPC主动联系",
+        "任务描述和备注": "1. 药品已添加入主角资产表；任务进入等待下轮交易状态\n2. 每次主角交易都是伪装好了去的，赵医生并不知道主角的真实长相和身份\n",
+        "Parent任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "事件编号": [
+          "recBJTNAuDt5DJWbe",
+          "reckZxC1B9tKs28lP",
+          "reci7b2iDSoejQdS5"
+        ],
+        "任务编号 (from Parent任务)": [
+          "S-5"
+        ],
+        "From field: Child任务": [
+          "recRgg7o120wKIx3z"
+        ],
+        "下一步发展": "等npc联系去取货"
+      }
+    }
+  ]
+}

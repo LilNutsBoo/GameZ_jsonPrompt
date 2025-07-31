@@ -1,0 +1,74 @@
+{
+  "id": "EA-01",
+  "name": "华北平原",
+  "parent_zone": "EA",
+  "disaster_type": null,
+  "severity_offset": null,
+  "status": {
+    "original": {
+      "population_density_per_km2": 105,
+      "demographics": {
+        "urbanization_rate": 65,  // 来源：第七次人口普查，北京高、河北河南低，取加权均值
+        "migration_pressure_index": 45,  // 主观估算，地理、交通便利，但生活成本偏高
+        "refugee_acceptance_capacity_index": 55  // 土地广阔、人口密度中等，有一定安置能力
+      },
+      "social_tension": {
+        "inequality_index": 60,  // Gini 系数简化，城乡差异和省际差异存在
+        "minority_tension_index": 40,  // 民族多样性低，冲突概率较小
+        "public_trust_government_index": 65,  // 北京带头、其他省份基层治理一般
+        "security_risk_index": 40  // 华北总体治安中等偏上，城市明显优于农村
+      },
+      "economic_gdp_index": 75,  // 参考华北整体人均 GDP 约9–11万元，接近120000门槛
+      "economic_structure": {
+        "agriculture_percent": 20,
+        "industry_percent": 35,
+        "service_percent": 45
+      },
+      "tech_development_index": 80,  // 北京科技占绝对主导地位，拉高区域平均
+      "medical_infrastructure_index": 75,  // 人均床位约7.5张/千人
+      "water_resources": {
+        "surface_water_index": 50,  // 黄河流经，但水量不足，南水北调改善有限
+        "groundwater_index": 40,  // 多年超采，地下水位下降严重
+        "annual_precip_index": 27.25  // 年降雨545mm，折算为百分制
+      },
+      "meat_source_index": {
+        "capture_fishery_mmt": 1.3,  // 野生捕捞来源较少
+        "aquaculture_fishery_mmt": 2.5,  // 主要是淡水养殖（如河北、山东）
+        "industrial_farming_mmt": 3.1,  // 猪鸡鸭等现代化养殖
+        "semi_intensive_farming_mmt": 2.2,  // 半工业半散养为主
+        "pasture_farming_mmt": 0.3,  // 略有放牧区（如内蒙交界）
+        "backyard_farming_mmt": 0.5  // 农村分散小规模仍存在
+      },
+      "agriculture_output": {
+        "grain_production_mmt": 470,
+        "vegetable_production_mmt": 120,
+        "fruit_production_mmt": 80,
+        "root_crop_mmt": 55
+      },
+      "strategic_reserve": {
+        "grain_reserve_mmt": 30,
+        "diesel_reserve_kt": 200,
+        "medical_reserve_index": 60  // 一线城市强，基层较弱，平均偏中
+      },
+      "dependency_index": {
+        "import_food_percent": 15,  // 自给主导，仅补充高端进口
+        "import_energy_percent": 5,  // 本地煤炭和石油产地丰富
+        "import_medicine_percent": 40  // 高端药物和疫苗依赖进口
+      },
+      "energy_resources": {
+        "solar_index": 60,  // 平原日照尚可，但雾霾影响长期效率
+        "wind_index": 35,  // 内蒙风能强，平原地区一般
+        "oil_index": 70,  // 冀中、胜利油田支撑区域用油
+        "coal_index": 80,  // 山西/内蒙主力产地
+        "nuclear_index": 0  // 华北平原无核电站，近核源为山东或东北
+      },
+      "infrastructure": {
+        "transportation_index": 70,  // 铁路/高速覆盖好，市政水平参差
+        "communication_index": 85,  // 城乡5G普及快，光纤到户比例高
+        "power_grid_stability_index": 80  // 华北电网调度稳定，资源调配能力强
+      }
+    },
+    "latest": {},
+    "in_disaster": {}
+  }
+}

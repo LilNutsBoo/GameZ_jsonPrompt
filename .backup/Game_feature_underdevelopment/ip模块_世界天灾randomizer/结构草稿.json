@@ -1,0 +1,99 @@
+{
+  "id": "EA",
+  "name": "东亚区块",
+  "disaster_type": null,
+  "severity": 8, 
+  "sub_regions": [
+    {
+      "id": "EA-01",
+      "name": "华北平原",
+      "parent_zone": "EA",
+      "disaster_type": null,
+      "severity_offset": null,  
+      "status": {
+        "original": {
+          "population_density_per_km2": null, // 真实数据，无百分比调整 
+          "demographics": {
+            "urbanization_rate": null, // 城市人口占比
+            "migration_pressure_index": null, // 灾难时迁出概率，受地理、交通、生活成本等影响
+            "refugee_acceptance_capacity_index": null // 是否有能力接受其他区块人口
+          },
+
+          "social_tension": {
+            "inequality_index": null, // 基尼系数简化为百分制
+            "minority_tension_index": null, // 民族/宗教等紧张情况
+            "public_trust_government_index": null, // 政府控制力
+            "security_risk_index": null //地区犯罪率百分制评分
+
+          },
+
+          "economic_gdp_index": null, // 基于真实数据作百分制调整，GDP/人民币120000 × 100
+          "economic_structure": {  //经济分布
+            "agriculture_percent": null,
+            "industry_percent": null,
+            "service_percent": null
+          },
+
+          "tech_development_index": null, // 主观百分制评分即可
+          "medical_infrastructure_index": null, // 人均床位/10*100
+          
+          "water_resources": {
+            "surface_water_index": null, // 河湖水源结构主观判断
+            "groundwater_index": null, // 地下水普查情况评分
+            "annual_precip_index": null // 	年降水 mm / 2000 × 100
+          },
+
+          "meat_source_index": { 
+            "capture_fishery_mmt": null,  // 野生捕捞总量（包括淡水和海水） 单位mmt
+            "aquaculture_fishery_mmt": null,  // 水产养殖（包括淡水和海水）单位mmt
+            "industrial_farming_mmt": null,    // 工业化肉类产出,单位mmt
+            "semi_intensive_farming_mmt": null, // 半开放传统农场, 单位mmt
+            "pasture_farming_mmt": null,        // 放牧型, 单位mmt
+            "backyard_farming_mmt": null         // 零散型,
+          },
+
+          "agriculture_output": {
+            "grain_production_mmt": null, //真实产出，单位mmt
+            "vegetable_production_mmt": null, //真实产出，单位mmt
+            "fruit_production_mmt": null, // 真实产出，单位mmt
+            "root_crop_mmt": null       // 土豆、红薯、芋头等
+          },
+
+          // 战略物资储备
+          "strategic_reserve": {
+            "grain_reserve_mmt": null,
+            "diesel_reserve_kt": null,
+            "medical_reserve_index": null // 疫苗、应急药品等
+          },
+
+          // 对外依赖度 / 自给率
+          "dependency_index": {
+            "import_food_percent": null,
+            "import_energy_percent": null,
+            "import_medicine_percent": null
+          },
+
+          "energy_resources": {
+            "solar_index": null, // 日辐照量 / 2500 × 100
+            "wind_index": null, // 风速 / 12 × 100
+            "oil_index": null, // 主管评分，胜利油田供应
+            "coal_index": null, // 主观评分，山西、内蒙煤炭丰富
+            "nuclear_index": 0 // 是否有核电站（有=100，无=0）
+          },
+
+          "infrastructure": {
+            "transportation_index": null, // 道路、铁路等级和密度
+            "communication_index": null, // 基站/光纤/网络通达程度
+            "power_grid_stability_index": null // 电网运行稳定性
+          }
+
+        },
+        "latest": {},
+        "in_disaster": {}
+      }
+    },
+    {}
+  ]
+}
+
+

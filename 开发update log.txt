@@ -1,0 +1,50 @@
+airtable是本游戏的数据库，负责维护以下几个table：任务，NPC，任务物品，事件，这些table之间相互关联。该数据库目前推荐玩家手动维护，以节约api calls
+准备好chatgpt的project GameZ_ING作为游戏交互窗口
+运行：GameZ游戏开始 batch file，streamlit的前端会自动打开
+streamlit（背后的python逻辑）
+	主code：gamez_ui.py 负责统筹所有的函数功能，同时负责编写streamlit用户交互前端的ui. 可粗略分为快捷指令保存模块，用户自定义输入模块，任务筛选模块，npc自主行为筛选模块，筛选结果导出模块。
+		data_loader:主要负责决定原始数据的来源，没有的话可以去拉一下	
+		快捷指令保存模块：根据需求，找到不同的chat prep规则，将所需文件上传到chatgpt project file中，BB版本中《任务导出》文件需要之后生成并上传
+			AA规则中，每次更换对话可能需要更新所有的挂在文件
+			BB规则中，每次更换对话应该只需要更新《任务导出》
+		用户自定义输入模块：输入一些数据用于后续筛选的模块，比如今天的游戏日期，用户想要自发行为的npc数量，筛选标准等等
+		task_selector：有单独封装函数，完成拉取原始数据，让其生成筛选，并执行随机算法，并提交给用户手动进行选择想要玩的任务，然后返回这个任务list
+		npca_selector：有单独封装函数，完成拉取原始数据，完成一些筛选逻辑和评分逻辑，选出几个npc和他们在游戏日期当天会发生的自主行为的类型，然后返回这个npc list和他们的自主行为类型。
+		npca_logic(_ip)：具体给每个npc的所有自主行为打分的函数（不做选择，但是打分有gating），打完分后返回给npca selector做筛选。
+		score_playground：测试用，专门开发打分功能。可以做testing，不用途径streamlit可以直接测试npc fields字段的每个行为的打分功能。
+		export_module：有单独封装函数，等以上的筛选模块都返回结果后，去拉取原始数据中所有这些选中结果，并且和这些结果相关联的所有table中的相应数据，集成到一个文件中，然后生成一个导出文件。
+		export_module_optimization: 具体的导出文件优化成ai friendly的逻辑。唯一允许改变和删减原始数据字段结构组成和key name的地方（npca selector只允许新增个别行为字段，不可以删减原有字段）
+
+Chatgpt：这个最后导出的文件就可以上传到project file中了，然后复制当前版本的chat prep规则进入chatgpt project下的新对话窗口并发送，等到chatgpt回复后：
+	（这一步是optional的，但是后缀的规则非常建议补充到自主设定开端中）复制粘贴每天的剧情引子：每轮剧情前 · 剧情准备（点击展开）到chatgpt对话窗口，
+	此时chatgpt应该会生成mission teaser，之后就可以愉快的玩耍了。
+
+【新功能（还有很远）】s天灾timeline/世界背景进程：目前airtable中已有第一个天灾在东亚地区的粗略timeline
+世界分区天灾randomizer：游戏文件夹中有雏形，但是似乎弄得有点太复杂了。
+
+【目前待补充/改善/优化的功能】
+1. 规则书中关于筛选器返回结果（导出文件）中数据的ai生成剧情要求。
+2. ui上的一些小tweak，见代码中的todo
+3. 考虑任务加入字段：tone hint，比如黑色幽默，日常，悬疑等
+4. NPCA的cooldown机制有待完善，目前只是统一的三天cooldown
+5. NPCA logic和设计机制有待更新
+6. data loader：在task selector里面，在核心函数中，读取缓存的优先级要高于读取测试用的本地数据，我希望能调整一下。应该是只要testing mode on，那就应该无条件选择测试用的那个本地数据。然后在普通情况下（testing mode false），应该先看本地有没有当日数据的缓存，如果没有，再发给用户做选择，是一次性拉取所有api数据，然后放进缓存，还是给每个模块下发independent api access（目前先禁止，因为后续会很复杂）。
+7. 测试数据环境：真的需要准备单独的测试数据，最好是别的api access，然后单独拉取的py，这样测试的时候，就不用思考路径或者保存，只要调整代码就好了。
+
+
+
+【update 完成】
+1. 任务-状态：新增：测试
+2. NPC-状态：新增：测试
+3. 优化export module，make it more ai friendly and efficient
+4. 加入了timeline_loader模块
+5. 加入了全数据导出下载按钮
+6. 修复了一些按钮上的硬伤
+7. 统一打分作用：romance类别低于20分为什么，40分为什么，60分为什么之类的（分数代表行为强度）
+
+【update needed】
+1. 全局部署字段映射表格，这样无论airtable中字段有什么变化，只要在映射表中修改一次就好，不用全局寻找变量
+
+【updating】
+1. 打分机制：score_playground.py
+
