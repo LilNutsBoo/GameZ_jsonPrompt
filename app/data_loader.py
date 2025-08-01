@@ -16,7 +16,7 @@ load_dotenv(dotenv_path)
 API_KEY = os.getenv("AIRTABLE_API_KEY")
 BASE_ID = os.getenv("AIRTABLE_BASE_ID")
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
-TABLES = ["任务", "NPC", "事件", "任务物品", "Timeline"]
+TABLES = ["任务", "NPC", "事件", "任务物品", "Timeline", "NPC_intel_about_player"]
 
 # ========== 📥 本地 JSON 数据读取 ==========
 def load_local_json(folder, filename):
@@ -182,7 +182,7 @@ def clear_autonomy_log():
     if path.exists():
         try:
             with open(path, "w", encoding="utf-8") as f:
-                json.dump({}, f, ensure_ascii=False, indent=2)
+                json.dump([], f, ensure_ascii=False, indent=2)
             return True
         except Exception as e:
             st.error(f"❌ 清空失败：{e}")

@@ -106,11 +106,11 @@ def render_export_panel(world_timeline, selected_tasks, autonomous_npcs, today):
             st.write(optimized_selected_and_connected)
 
     today_export = {
-        "today": today,
-        "world_background" : optimized_world_timeline,
-        "tasks_for_today": optimized_selected_tasks,
-        "autonomous_npcs_for_today": optimized_autonomous_npcs,
-        "reference_data": optimized_selected_and_connected
+        "TODAY": today,
+        "WORLD_BACKGROUND" : optimized_world_timeline,
+        "TASKS_FOR_TODAY": optimized_selected_tasks,
+        "NPCs_INITIATED_INTERACTIONS_TODAY": optimized_autonomous_npcs,
+        "REFERENCE_DATA": optimized_selected_and_connected
     }
 
     st.download_button("📥 下载 当日剧情重点", data=json.dumps(today_export, ensure_ascii=False, indent=2), file_name=f"当日剧情重点_{today}.json", mime="application/json")
