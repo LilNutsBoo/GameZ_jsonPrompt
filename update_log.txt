@@ -41,10 +41,14 @@ Chatgpt：这个最后导出的文件就可以上传到project file中了，然�
 5. 加入了全数据导出下载按钮
 6. 修复了一些按钮上的硬伤
 7. 统一打分作用：romance类别低于20分为什么，40分为什么，60分为什么之类的（分数代表行为强度）
+8. NPC_intel_about_player:这个模块是 “NPC眼中的主角状态”，独立于主角的真实状态，由NPC的主观经验、交互记录和推理能力决定。从单独的airtable table中拉取NPC record然后加入所有正常的npc列表信息
+9. 从原始数据中剪裁了导出json中不必要的数字字母前缀，换行\n等
+10. 加入了文风设定的快捷指令
 
-【update needed】
+【update Que】
 1. 全局部署字段映射表格，这样无论airtable中字段有什么变化，只要在映射表中修改一次就好，不用全局寻找变量
+2. 完善打分机制：score_playground.py
+3. 决定是否要将所有event整理格式（清洗时间），按照时间顺序排序，插入task_load和npc
 
 【updating】
-1. 打分机制：score_playground.py
 
