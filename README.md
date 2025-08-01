@@ -38,7 +38,7 @@ GameZ/
 ├── .env                  # API keys (excluded from Git)
 ├── .gitignore
 ├── README.md
-├── 游戏实时进程/         # World timeline or story planning (optional)
+├── live_gaming_file/         # World timeline or story planning (optional)
 └── legacy_file/          # Archived documents and rulebooks
 ```
 
